@@ -34,7 +34,7 @@
         local waitingForKey = false
         local activationKeyConnection
 
-        main.Name = "GrapesFly"
+        main.Name = "Rape Fly"
         main.Parent = player:WaitForChild("PlayerGui")
         main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
         main.ResetOnSpawn = false
@@ -101,7 +101,7 @@
         TextLabel.Position = UDim2.new(0.469, 0, 0, 0)
         TextLabel.Size = UDim2.new(0, 100, 0, 28)
         TextLabel.Font = Enum.Font.GothamBold
-        TextLabel.Text = "Grapes Fly"
+        TextLabel.Text = "Raper Fly"
         TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
         TextLabel.TextScaled = true
         TextLabel.TextSize = 14
@@ -749,7 +749,7 @@
             label.Position = UDim2.new(0, 10, 0, 10)
             label.Size = UDim2.new(1, -20, 0, 28)
             label.Font = Enum.Font.GothamBold
-            label.Text = "Close Grapes Fly?"
+            label.Text = "Close Raper Fly?"
             label.TextColor3 = Color3.fromRGB(255, 255, 255)
             label.TextSize = 16
             label.TextStrokeTransparency = 1
@@ -831,7 +831,7 @@
         task.wait(1)
 
         if not closing then
-            TextLabel.Text = "Grapes Fly"
+            TextLabel.Text = "Raper Fly"
         end
 
         updateSpeed()
@@ -856,8 +856,8 @@
             StarterGui:SetCore(
                 "SendNotification",
                 {
-                    Title = "Grapes Fly",
-                    Text = "by grapes",
+                    Title = "Raper Fly",
+                    Text = "by Raped",
                     Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"
                 }
             )
